@@ -1,10 +1,7 @@
-terraform{
-    required_version = ">= 1.5.0"
-
-    required_providers {
-        snowflake = {
-            source = "snowflake-Labs/snowflake"
-            version = "~> 0.98"
-        }
+terraform {
+  required_providers {
+    snowflake = {
+      source = "snowflakedb/snowflake"
     }
+  }
 }
